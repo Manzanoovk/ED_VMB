@@ -16,21 +16,21 @@ public class Main {
         double gravedadTierra = planeta1.getGravedadplaneta();
         double pesoTierra = masaPersona * gravedadTierra;
         System.out.println(
-                "El peso de " + persona1.getNombre() + " en " + planeta1.getNombre() + " es: " + pesoTierra + " N");
+                "El peso de " + persona1.getNombre() + " en " + planeta1.getNombre() + " es: " + pesoTierra);
 
         // Calculo peso persona en marte peso = masa por aceleracion
         masaPersona = persona2.getMasa();
         double gravedadMarte = planeta2.getGravedadplaneta();
         double pesoMarte = masaPersona * gravedadMarte;
         System.out.println(
-                "El peso de " + persona2.getNombre() + " en " + planeta2.getNombre() + " es: " + pesoMarte + " N");
+                "El peso de " + persona2.getNombre() + " en " + planeta2.getNombre() + " es: " + pesoMarte);
 
         // Calculo peso persona en jupiter peso = masa por aceleracion
         masaPersona = persona1.getMasa();
         double gravedadJupiter = planeta3.getGravedadplaneta();
         double pesoJupiter = masaPersona * gravedadJupiter;
         System.out.println(
-                "El peso de " + persona1.getNombre() + " en " + planeta3.getNombre() + " es: " + pesoJupiter + " N");
+                "El peso de " + persona1.getNombre() + " en " + planeta3.getNombre() + " es: " + pesoJupiter);
 
     }
 }
