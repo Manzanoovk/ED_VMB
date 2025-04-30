@@ -1,3 +1,4 @@
+// Aqui creo la clase
 public class Persona_VMB {
     private int id;
     private String nombre;

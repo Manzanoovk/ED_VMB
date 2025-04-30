@@ -1,14 +1,17 @@
+// Aqui creo la clase
 public class VMB_GravedadPlaneta {
     private int id;
     private String nombre;
     private double gravedadplaneta;
 
+    // Aqui inserto el constructor de la clase VMB_GravedadPlaneta
     public VMB_GravedadPlaneta(double gravedadplaneta, int id, String nombre) {
         this.gravedadplaneta = gravedadplaneta;
         this.id = id;
         this.nombre = nombre;
     }
 
+    // Aqui inserto los getter y setter de la clase VMB_GravedadPlaneta
     public int getId() {
         return id;
     }
@@ -33,6 +36,7 @@ public class VMB_GravedadPlaneta {
         this.gravedadplaneta = gravedadplaneta;
     }
 
+    // Aqui inserto el metodo ToString de la clase VMB_GravedadPlaneta
     @Override
     public String toString() {
         return "VMB_GravedadPlaneta [id=" + id + ", nombre=" + nombre + ", gravedadplaneta=" + gravedadplaneta + "]";
