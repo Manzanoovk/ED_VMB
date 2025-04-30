@@ -15,22 +15,34 @@ public class Main {
         double masaPersona = persona1.getMasa();
         double gravedadTierra = planeta1.getGravedadplaneta();
         double pesoTierra = masaPersona * gravedadTierra;
-        System.out.println(
-                "El peso de " + persona1.getNombre() + " en " + planeta1.getNombre() + " es: " + pesoTierra);
 
         // Calculo peso persona en marte peso = masa por aceleracion
         masaPersona = persona2.getMasa();
         double gravedadMarte = planeta2.getGravedadplaneta();
         double pesoMarte = masaPersona * gravedadMarte;
-        System.out.println(
-                "El peso de " + persona2.getNombre() + " en " + planeta2.getNombre() + " es: " + pesoMarte);
 
         // Calculo peso persona en jupiter peso = masa por aceleracion
         masaPersona = persona1.getMasa();
         double gravedadJupiter = planeta3.getGravedadplaneta();
         double pesoJupiter = masaPersona * gravedadJupiter;
-        System.out.println(
-                "El peso de " + persona1.getNombre() + " en " + planeta3.getNombre() + " es: " + pesoJupiter);
 
+        // Método para calcular IMC de la persona
+        double imc = 0.0;
+        imc = masaPersona / (persona1.getAltura() * persona1.getAltura());
+        imc = masaPersona / (persona2.getAltura() * persona2.getAltura());
+
+        // Imprimir informacion de la persona y el planeta
+        System.out.println(
+                "El peso de " + persona1.getNombre() + " en " + planeta1.getNombre() + " es: " + pesoTierra + "N");
+
+        System.out.println(
+                "El peso de " + persona2.getNombre() + " en " + planeta2.getNombre() + " es: " + pesoMarte + "N");
+
+        System.out.println(
+                "El peso de " + persona1.getNombre() + " en " + planeta3.getNombre() + " es: " + pesoJupiter + "N");
+
+        System.out.println("El IMC de " + persona1.getNombre() + " es: " + imc);
+
+        System.out.println("El IMC de " + persona2.getNombre() + " es: " + imc);
     }
 }
