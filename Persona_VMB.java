@@ -1,78 +1,77 @@
-package ExamenRecuEntornos;
 /**
  * @author victor
- * version 1.0
+ *         version 1.0
  */
 
-//Aqui creo la clase
+// Aqui creo la clase
 public class Persona_VMB {
- /**
- * Esto es un ejemplo
- * 
- * @param Este será el mensaje a imprimir
- */
+    /**
+     * Esto es un ejemplo
+     * 
+     * @param Este será el mensaje a imprimir
+     */
 
-private int id;
-private String nombre;
-private double masa;
-private double altura;
-private int edad;
+    private int id;
+    private String nombre;
+    private double masa;
+    private double altura;
+    private int edad;
 
-// Aqui inserto el constructor de la clase Persona_VMB
-public Persona_VMB(double altura, int edad, int id, double masa, String nombre) {
-    this.altura = altura;
-    this.edad = edad;
-    this.id = id;
-    this.masa = masa;
-    this.nombre = nombre;
-}
+    // Aqui inserto el constructor de la clase Persona_VMB
+    public Persona_VMB(double altura, int edad, int id, double masa, String nombre) {
+        this.altura = altura;
+        this.edad = edad;
+        this.id = id;
+        this.masa = masa;
+        this.nombre = nombre;
+    }
 
-// Aqui inserto los getters y setters de la clase Persona_VMB
-public int getId() {
-    return id;
-}
+    // Aqui inserto los getters y setters de la clase Persona_VMB
+    public int getId() {
+        return id;
+    }
 
-public void setId(int id) {
-    this.id = id;
-}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-public String getNombre() {
-    return nombre;
-}
+    public String getNombre() {
+        return nombre;
+    }
 
-public void setNombre(String nombre) {
-    this.nombre = nombre;
-}
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-public double getMasa() {
-    return masa;
-}
+    public double getMasa() {
+        return masa;
+    }
 
-public void setMasa(double masa) {
-    this.masa = masa;
-}
+    public void setMasa(double masa) {
+        this.masa = masa;
+    }
 
-public double getAltura() {
-    return altura;
-}
+    public double getAltura() {
+        return altura;
+    }
 
-public void setAltura(double altura) {
-    this.altura = altura;
-}
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
 
-public int getEdad() {
-    return edad;
-}
+    public int getEdad() {
+        return edad;
+    }
 
-public void setEdad(int edad) {
-    this.edad = edad;
-}
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
 
-// Aqui inserto el metodo toString de la clase Persona_VMB
-@Override
-public String toString() {
-    return "Persona_VMB [id=" + id + ", nombre=" + nombre + ", masa=" + masa + ", altura=" + altura + ", edad="
-            + edad + "]";
-}
+    // Aqui inserto el metodo toString de la clase Persona_VMB
+    @Override
+    public String toString() {
+        return "Persona_VMB [id=" + id + ", nombre=" + nombre + ", masa=" + masa + ", altura=" + altura + ", edad="
+                + edad + "]";
+    }
 
 }
